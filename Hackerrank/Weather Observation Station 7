@@ -1,0 +1,10 @@
+Query the list of CITY names ending with vowels (a, e, i, o, u) from STATION. Your result cannot contain duplicates.
+
+
+**SOLUTIION** - MYSQL Server
+
+Select DISTINCT CITY From Station Where City Like '%a' OR City Like '%e' OR City Like '%i' OR City Like '%o' OR City Like '%u';
+
+**SOLUTIION** - MS SQL Server
+
+Select DISTINCT City From Station Where City Like '%[aeiou]';
