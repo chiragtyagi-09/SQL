@@ -1,0 +1,7 @@
+Query the list of CITY names from STATION that do not start with vowels. Your result cannot contain duplicates.
+
+
+
+**SOLUTIION** - MYSQL Server
+
+SELECT DISTINCT CITY FROM STATION WHERE NOT ( CITY LIKE 'a%' OR City Like 'e%' OR City Like 'i%' OR City Like 'o%' OR City Like 'u%');
