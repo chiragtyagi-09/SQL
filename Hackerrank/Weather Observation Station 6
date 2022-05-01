@@ -17,3 +17,7 @@ Write a query to print the list of CITY that start with vowels in lexicographica
 **SOLUTIION** - MYSQL Server
 
 Select CITY From Station Where City Like 'a%' OR City Like 'e%' OR City Like 'i%' OR City Like 'o%' OR City Like 'u%';
+
+**SOLUTIION** - MS SQL Server
+
+Select City From Station Where City Like '[aeiou]%';
